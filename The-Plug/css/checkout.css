@@ -1,0 +1,48 @@
+/* Checkout Page Styles */
+.checkout-section {
+    width: 90%;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.checkout-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.checkout-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-section label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.checkout-section input[type="text"],
+.checkout-section select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.checkout-section button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.checkout-section button:hover {
+    background-color: #555;
+}
