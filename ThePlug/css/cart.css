@@ -1,0 +1,43 @@
+/* Cart Page Styles */
+.cart-section {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.cart-section h2 {
+    text-align: center;
+}
+
+.cart-items table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.cart-items th, .cart-items td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.cart-items th {
+    background-color: #f9f9f9;
+}
+
+.checkout-button {
+    text-align: center;
+}
+
+.checkout-button .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.checkout-button .btn:hover {
+    background-color: #555;
+}
