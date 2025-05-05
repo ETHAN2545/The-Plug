@@ -1,0 +1,70 @@
+/* Order History Page Styles */
+.order-history-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.order-history-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Message if no orders exist */
+.no-orders {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: #888;
+}
+
+/* Each order block */
+.order-box {
+    background: #f9f9f9;
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.order-box h2 {
+    margin: 0 0 10px;
+    color: #28a745;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.order-box p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Each product item inside an order */
+.order-item {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+.order-item:first-of-type {
+    border-top: none;
+}
+
+.order-item-image img {
+    width: 90px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.order-item-info {
+    font-size: 15px;
+    color: #333;
+}
