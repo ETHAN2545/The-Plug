@@ -8,23 +8,13 @@ https://www.w3schools.com/howto/howto_js_slideshow.asp
 Responsive menu toggle (based on W3Schools navbar toggle)  
 https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
 
-**product_detail.js**  
-Basic toggle view for product detail variants (custom script)
-
-**variant.js**  
-Handles showing/hiding size/color inputs based on product type (custom script)
-
-**PHP Functions Used**
 
 **urlencode()**  
 Safely encodes query string parameters in PHP  
 https://www.php.net/manual/en/function.urlencode.php
+ 
 
-products.php  
-Filtering logic using conditional checks inside a foreach loop (inspired by general PHP filtering practices).  
-Reference: https://www.php.net/manual/en/control-structures.foreach.php  
-
-Symfony casts Tutorial used to create code
+Symfony casts Tutorial used to create coding
 https://symfonycasts.com/screencast/php-ep1/functions#play
 
 Lecturer Lab + Notes
